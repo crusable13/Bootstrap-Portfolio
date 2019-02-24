@@ -5,40 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <section class="col-8">
-            <a class="navbar-brand border border-dark p-1" href="#">Christopher Smith</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </section>
-        <div class="collapse navbar-collapse col-9" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item col-4">
-                    <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active col-4 border-left border-right border-dark">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item col-4">
-                    <a class="nav-link navbar-text" href="./portfolio.html">Portfolio</a>
-                </li>
+
+    <nav class="headery" style="background-color: white; height: 70px; margin-bottom: 30px;">
+        <div class="container-fluid">
+            <div class="header-name">
+                <h1 id="large-header" style="font-size: 2em; padding-top: 12px;">Christopher Smith</h1>
+                <h1 id="small-header"
+                    style="font-size: 2em; padding-top: 12px; padding-right: 10px; padding-left: 10px;">C</h1>
+            </div>
+            <ul class="header-links mt-3 pr-1">
+                <li style="display: inline-block;"><a href="./index.html"> About Me </a></li>
+                <li style="display: inline-block;"><a href="./portfolio.html">| Portfolio |</a></li>
+                <li style="display: inline-block;"><a href="./contact.html"> Contact Me</a></li>
             </ul>
         </div>
     </nav>
 
-
-    <footer class="footer mt-auto">
-        <div class="container-fluid fixed-bottom border bg-info d-flex justify-content-center footer mt-auto p-0">
-            Copyright &copy;
+    <div class="container main-box">
+        <div class="row">
+            <div class="col-12">
+                <h1>Portfolio</h1>
+            </div>
         </div>
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="cardy card1">
+                        <h2>Label 1</h2>
+                    </div>
+                    <div class="cardy card2">
+                        <h2>Label 2</h2>
+                    </div>
+                    <div class="cardy card3">
+                        <h2>Label 3</h2>
+                    </div>
+                    <div class="cardy card4">
+                        <h2>Label 4</h2>
+                    </div>
+                    <div class="cardy card5">
+                        <h2>Label 5</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer fixed-bottom" style="margin-bottom: 0;">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white"
+            style="font-size: .75em; margin-bottom: 0; padding-bottom: 0;">
+            © 2018 Copyright
+        </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -50,3 +80,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
